@@ -1,0 +1,105 @@
+i.bi-arrow-left, i.bi-trash {
+  cursor: pointer;
+}
+
+/* Header */
+
+header {
+  background-color: #DDD;
+}
+
+#link-logo {
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+  margin-right: 150px;
+  margin-top: 2px;
+  color: black;
+  font-size: 25px;
+}
+
+.nav-item .router-link {
+  text-decoration: none;
+  line-height: 40px;
+  color: #666;
+  margin-right: 15px;
+}
+
+.nav-item .router-link.active {
+  color: black;
+  font-size: 18px;
+}
+
+.search-type {
+  width: 150px;
+  margin-right: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F8F9FA;
+}
+
+footer .row :first-child {
+  line-height: 42px;
+  font-size: 22px;
+}
+
+/* Section */
+
+#secao-principal {
+  background-color: #F8F9FA;
+  padding: 0px 40px;
+  min-height: 85vh;
+}
+
+h2 {
+  margin: 0;
+}
+
+.content-header {
+  padding: 20px 0;
+}
+
+/* Home */
+
+#keyword-alert {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 0px;
+  height: 20px;
+}
+
+#keyword-alert .btn-close {
+  float: right;
+  margin-top: -11px;
+  margin-right: -12px;
+}
+
+.add-button {
+  position: absolute !important;
+  right: 55px !important;
+}
+
+.detail-field {
+  margin: 20px 0;
+}
+
+.form-field {
+  margin: 25px 0;
+}
+
+.form-submit {
+  float: right;
+  margin-right: 2px;
+  margin-top: 10px;
+}

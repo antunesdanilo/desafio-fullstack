@@ -1,0 +1,7 @@
+{
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "eslint.workingDirectories": [
+    "./backend",
+    "./frontend",
+  ],
+}
