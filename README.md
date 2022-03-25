@@ -1,9 +1,8 @@
-# DevCad
-## (Cadastro de Desenvolvedores)
+# Cadastro de Desenvolvedores
 
 ## Sobre
 
-Esta aplicação tem como objetivo de permitir que o usuário faça o gerenciamento de uma lista de desenvolvedores, podendo cadastrar, atualizar, visualizar e remover um registro, além de associá-lo a um nível.
+Esta aplicação tem como objetivo permitir que o usuário faça o gerenciamento de uma lista de desenvolvedores, podendo cadastrar, atualizar, visualizar e remover um registro, além de associá-lo a um nível.
 
 ## Tecnologias Utilizadas
 
@@ -22,7 +21,7 @@ A demonstração está <a href="http://desafio-fullstack.socialfitness.com.br" t
 
 ```bash
 # Clonar o repositório
-$ git clone https://gitlab.com/daniloantunes/desafio-full-stack-devcad.git
+$ git clone https://github.com/antunesdanilo/desafio-fullstack.git
 
 # Instalar as dependências do backend
 $ cd backend && npm install
@@ -43,7 +42,7 @@ NPM
 
 ```bash
 # Entrar no diretório do projeto
-$ cd desafio-full-stack-devcad
+$ cd desafio-fullstack
 
 # Fazer o build das imagens e criar os containers
 $ docker-compose up -d --build
@@ -53,26 +52,26 @@ $ docker-compose up -d --build
 
 ```bash
 # Entrar no diretório do projeto
-$ cd desafio-full-stack-devcad
+$ cd desafio-fullstack
 
 # Entrar no sub-diretório backend
 $ cd backend
 
 # Fazer o build da imagem
-$ docker build -t dev-cad/backend .
+$ docker build -t desafio-fullstack/backend .
 
 # Executar o container
-$ docker run -it -p 3333:3333 dev-cad/backend
+$ docker run -it -p 3333:3333 desafio-fullstack/backend
 
 
 # Entrar no sub-diretório frontend
 $ cd frontend
 
 # Fazer o build da imagem
-$ docker build -t dev-cad/frontend .
+$ docker build -t desafio-fullstack/frontend .
 
 # Executar o container
-$ docker run -it -p 80:80 dev-cad/frontend
+$ docker run -it -p 80:80 desafio-fullstack/frontend
 ```
 
 Acessar <a href="http://localhost" target="_blank">localhost</a>
@@ -86,10 +85,10 @@ NPM
 
 ```bash
 # Clonar o repositório
-$ git clone https://gitlab.com/daniloantunes/desafio-full-stack-devcad.git
+$ git clone https://github.com/antunesdanilo/desafio-fullstack.git
 
 # Entrar no diretório do projeto
-$ cd desafio-full-stack-devcad
+$ cd desafio-fullstack
 
 # Iniciar o backend
 $ cd backend && npm run dev
@@ -106,7 +105,7 @@ Acessar <a href="http://localhost" target="_blank">localhost</a>
 
 ```bash
 # Entrar no diretório do projeto
-$ cd desafio-full-stack-devcad
+$ cd desafio-fullstack
 
 # Entrar no sub-diretório backend
 $ cd backend
