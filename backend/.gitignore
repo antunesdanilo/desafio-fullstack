@@ -3,6 +3,8 @@ build
 coverage
 .vscode
 .DS_STORE
-#.env
+.env
+.env.testing
+package-lock.json
 tmp
 .nyc_output
