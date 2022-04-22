@@ -10,6 +10,6 @@ COPY .env ./build/.env
 WORKDIR /usr/share/backend/build
 RUN npm ci --production --unsafe-perm
 
-EXPOSE 3333
+EXPOSE 3335
 
 CMD ["sh", "-c", "node server.js"]

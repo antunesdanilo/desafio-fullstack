@@ -13,15 +13,11 @@ No desenvolvimento desta aplicação foram utilizadas as seguintes tecnologias:
 - <a href="https://pt-br.reactjs.org" target="_blank">ReactJS</a> - Framework frontend
 - <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> - Componentes estilizados
 
-## Demonstração Online
-
-A demonstração está <a href="http://desafio-fullstack.socialfitness.com.br" target="_blank">hospedada</a> na AWS.
-
 ## Download
 
 ```bash
 # Clonar o repositório
-$ git clone https://github.com/antunesdanilo/desafio-fullstack.git
+$ git clone https://github.com/antunesdanilo/devlist.git
 
 # Instalar as dependências do backend
 $ cd backend && npm install
@@ -42,7 +38,7 @@ NPM
 
 ```bash
 # Entrar no diretório do projeto
-$ cd desafio-fullstack
+$ cd devlist
 
 # Fazer o build das imagens e criar os containers
 $ docker-compose up -d --build
@@ -52,26 +48,26 @@ $ docker-compose up -d --build
 
 ```bash
 # Entrar no diretório do projeto
-$ cd desafio-fullstack
+$ cd devlist
 
 # Entrar no sub-diretório backend
 $ cd backend
 
 # Fazer o build da imagem
-$ docker build -t desafio-fullstack/backend .
+$ docker build -t devlist/backend .
 
 # Executar o container
-$ docker run -it -p 3333:3333 desafio-fullstack/backend
+$ docker run -it -p 3333:3333 devlist/backend
 
 
 # Entrar no sub-diretório frontend
 $ cd frontend
 
 # Fazer o build da imagem
-$ docker build -t desafio-fullstack/frontend .
+$ docker build -t devlist/frontend .
 
 # Executar o container
-$ docker run -it -p 80:80 desafio-fullstack/frontend
+$ docker run -it -p 80:80 devlist/frontend
 ```
 
 Acessar <a href="http://localhost" target="_blank">localhost</a>
@@ -85,10 +81,10 @@ NPM
 
 ```bash
 # Clonar o repositório
-$ git clone https://github.com/antunesdanilo/desafio-fullstack.git
+$ git clone https://github.com/antunesdanilo/delist.git
 
 # Entrar no diretório do projeto
-$ cd desafio-fullstack
+$ cd devlist
 
 # Iniciar o backend
 $ cd backend && npm run dev
@@ -105,7 +101,7 @@ Acessar <a href="http://localhost" target="_blank">localhost</a>
 
 ```bash
 # Entrar no diretório do projeto
-$ cd desafio-fullstack
+$ cd devlist
 
 # Entrar no sub-diretório backend
 $ cd backend
